@@ -9,10 +9,7 @@ public class MyArrayListApp {
 	public static void main(String[] args) {
 
 		List myArrayList = new ArrayList();
-		myArrayList.add("Anna");
-		myArrayList.add("Ivanna");
-		myArrayList.add("Olia");
-
+		
 		while (true) {
 			System.out.println("press 1 to add new element " + "\npress 2 to delete some element"
 					+ "\npress 3 to see all elements");
