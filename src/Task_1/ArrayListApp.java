@@ -25,8 +25,6 @@ public class ArrayListApp {
 			switch (scanner.next()) {
 
 			case "1": {
-				// Car[][] arrayOfCars = new Car[getRandomValueFromRange(3,
-				// 10)][getRandomValueFromRange(3, 10)];
 				List<Car> carsList1 = new ArrayList<Car>();
 				for (int i = 0; i < getRandomValueFromRange(3, 10); i++) {
 					List<Car> carsList2 = new ArrayList<Car>();

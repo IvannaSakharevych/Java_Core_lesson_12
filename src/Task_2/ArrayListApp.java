@@ -1,7 +1,8 @@
 package Task_2;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayListApp {
@@ -48,15 +49,17 @@ public class ArrayListApp {
 	
 	public static void main(String[] args) {
 
-		List<Months> monthsList = new ArrayList<Months>();
-		for (Months months : Months.values()) {
-			monthsList.add(months);
-		}
+		List<Months> monthsList = Arrays.asList(Months.values());
+//		List<Months> monthsList = new ArrayList<Months>();
+//		for (Months months : Months.values()) {
+//			monthsList.add(months);
+//		}
 		
-		List<Seasons> seasonsList = new ArrayList<Seasons>();
-		for (Seasons seasons : Seasons.values()) {
-			seasonsList.add(seasons);
-		}
+		List<Seasons> seasonsList = Arrays.asList(Seasons.values());
+//		List<Seasons> seasonsList = new ArrayList<Seasons>();
+//		for (Seasons seasons : Seasons.values()) {
+//			seasonsList.add(seasons);
+//		}
 		
 		Scanner scanner = new Scanner(System.in);
 
